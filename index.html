@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <header>
+        <div> 
+            <button onclick="showHighScores()" id="scores">View High Scores</button>
+        </div>
+        <div>
+            Timer: <span id="timer"></span>
+        </div> 
+    </header>
+    <main>
+        <div id="quiz-wrapper">
+            <div id="quiz-start">
+                <h1>Web Developer Quiz</h1>
+                <p>Click start to begin your knowledge quiz of Web Development!</p>
+                <button class="start-btn" id="start-btn">Start Quiz</button>
+            </div>
+        <div class="question-wrapper"></div>
+        </div>
+    </main>
+    <!-- <footer id="answer"></footer> -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
